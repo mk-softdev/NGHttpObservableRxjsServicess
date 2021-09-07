@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class EmployeeService {
 
-  _url: string = "/assets/data/employee.json";
+  _url: string = "/src/assets/data/employee.json";
 
 
   constructor(private _http:HttpClient) { }
